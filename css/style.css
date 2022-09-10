@@ -1,22 +1,52 @@
 *{
+    box-sizing: border-box;
+}
+html, body{
     margin: 0;
 }
 
-#imagem_fundo{
+#imagem-fundo{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-image: url(https://images.unsplash.com/photo-1631730486572-226d1f595b68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=775&q=80);
+    background-image:url(../img/imaginha.jpg);
     background-size: cover;
     background-repeat:no-repeat ;
-    
+    position: relative;
+    top: -40px;
 }
-h1{
+
+#titulo-inicio{
     font-size: 50px;
     text-align: center;
-    padding: 20px;
+    padding-top: 76px;
 }
-#inicioQuiz{
-    width: 500px;
 
+#inicio-quiz{
+    margin: 150px;
+    margin-top: 500px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;
+}
+
+.numero-pagina{
+    padding-left: 32px;
+    padding-top: 25px;
+    padding-right: 29px;
+}
+
+.titulo{
+    font-size: 29px;
+    position: relative;
+    top: -20px;
+}
+.area-titulo{
+    padding-right: 29px;
+    padding-top: 40px;
+}
+
+.area-titulo, .numero-pagina{
+   display: inline-flex;
 }
