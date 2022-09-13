@@ -35,8 +35,8 @@ html, body{
     opacity : 0.78;
 }
 #area-botao{
-    margin-top: 500px;
-    margin-left: 100px;
+margin-bottom: 50px;
+text-align: center;
 }
 
 .numero-pagina{
@@ -102,4 +102,10 @@ html, body{
     background-color:#DDCBC9 ;
     border-color: #DDCBC9;
     color: black;
+}
+.pagina01{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
