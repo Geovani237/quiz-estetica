@@ -22,6 +22,8 @@ html, body{
     font-weight: 300;
     font-size: 20px;
     font-family: 'Montserrat';
+    margin-left: 7px;
+    height: 60px;
 }
  .alternativas button{
     width: 90%;
@@ -37,4 +39,53 @@ html, body{
  }
  .alternativas{
     text-align: center;
+ }
+ .alternativas button:hover{
+    background:#00AB93;
+    border-color: #00AB93;
+    color:white
+ }
+ .imagem-fundo{
+    text-align: center;
+    background-image: url(img/image\ 5.png);
+    background-size: cover;
+ }
+ .mascara{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    padding: 10px;
+ }
+ .titulo{
+    margin:0;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 29px;
+    color: #00AB93;
+ }
+ .borda{
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ }
+ .subtitulo{
+    color: white;
+    font-family: 'Montserrat';;
+    font-weight: 200;
+    font-size: 20px;
+ }
+ .botao{
+    font-family: 'Bebas Neue';
+    text-decoration: none;
+    color: white;
+    background-color: #00AB93;
+    width: 257px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 20px;
+    border-radius: 10px;
  }
